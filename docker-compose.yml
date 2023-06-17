@@ -1,0 +1,9 @@
+version: "3"
+services:
+      musung_landing_page:
+          image: musung_landing_page
+          ports:
+            - "81:80"
+          build:
+            context: .
+            dockerfile: Dockerfile
